@@ -49,4 +49,5 @@ Me.editControl2.Text = content
 
 
 Output:
+
 ![EditControl_Encoding](EditControl_Encoding.png)
