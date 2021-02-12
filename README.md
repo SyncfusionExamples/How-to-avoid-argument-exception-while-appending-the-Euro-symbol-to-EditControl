@@ -1,8 +1,7 @@
 # How-to-avoid-argument-exception-while-appending-the-Euro-symbol-to-EditControl
 This repository contains the sample that how to to avoid argument exception while appending the Euro € symbol  to EditControl.
 
-The argument exception in EditControl  can be avoided while appending the Euro € symbol to EditControl  by setting the Encoding value to Default.
-When typing the text directly in editcontrol without loading, the encoding can be set using the SetEncoding method as shown in the following code.
+The SetEncoding method should be set to default type for encoding  to load /assign the text value with equation or symbols. The symbols can be assigned to Text property when typing the text directly  without loading in EditControl  and setting the encoding as shown in the following code.
 
 ```C#
 // Set encoding 
