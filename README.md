@@ -1,7 +1,7 @@
-# How-to-avoid-argument-exception-while-appending-the-Euro-symbol-to-EditControl
-This repository contains the sample that how to to avoid argument exception while appending the Euro € symbol  to EditControl.
+# How to avoid argument exception while appending the Euro symbol to EditControl
+This repository contains the sample that shows how to avoid argument exception while appending the Euro € symbol to EditControl.
 
-The SetEncoding method should be set to default type for encoding  to load /assign the text value with equation or symbols. The symbols can be assigned to Text property when typing the text directly  without loading in EditControl  and setting the encoding as shown in the following code.
+The SetEncoding method should be set to default type for encoding to load /assign the text value with equation or symbols. 
 
 ```C#
 // Set encoding 
@@ -14,7 +14,7 @@ Me.editControl2.SetEncoding(Encoding.Default)
 Me.editControl2.Text = "£££"
 ```
 
-When assigning the text using StreamReader the encoding can be set as like below
+When assigning the text using StreamReader, the encoding can be set as like below.
 
 ```C#
 string inputPath = @"../../TextFile1.txt";
